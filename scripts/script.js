@@ -1,5 +1,5 @@
 function doit() {
-    let celcius = document.getElementById('celcius').value;
-    let fahrenheit = 9 * (celcius / 5) + 32;
+    let celsius = document.getElementById('celsius').value;
+    let fahrenheit = 9 * (celsius / 5) + 32;
     document.getElementById('output').innerHTML = fahrenheit;
 }

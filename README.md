@@ -1,2 +1,2 @@
 # Celcius to fahrenheit conversion
-Enter value in celcius and get in fahrenheit
+Enter value in celsius and get in fahrenheit
