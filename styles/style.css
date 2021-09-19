@@ -1,7 +1,31 @@
-body {
+form {
+  margin: 3px 200px;
+  background-color: #000000;
+  border: solid 50px #e5cc5f;
+  border-radius: 30px;
+  height: 80%;
   text-align: center;
-  border: solid 10px #f28894;
-  border-radius: 10px;
-  margin: 3px;
-  background-color: #88e5f2;
+  font-family: cursive;
+  font-size: large;
+  color: blanchedalmond;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  top:20%;
+  margin-top: 10%;
+}
+
+.decor-inputs {
+  border: solid 1px #ffffff;
+  border-radius: 5px;
+  background-color: #5d5d5d;
+  color: blanchedalmond;
+  font-family: cursive;
+  text-align: center;
+}
+
+.output-div {
+  font-size: 50px;
 }

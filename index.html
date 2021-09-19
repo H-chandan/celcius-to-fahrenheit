@@ -6,10 +6,18 @@
         <script src="scripts/script.js" defer></script>
     </head>
     <body>
-        <h1>Celcius to fahrenheit Conversion</h1>
-        <label for='celcius'>Enter Temperature (in celcius):</label>
-        <input id='celcius'></input>
-        <input type='submit' onclick=doit()></input>
-        <p id="output"></p>
+        <form action="">
+            <div class="input-div">
+                <h1>Celcius to fahrenheit Conversion</h1>
+                <div>
+                    <label for='celcius'>Enter Temperature (in celcius):</label>
+                    <input id='celcius' class="decor-inputs"></input>
+                    <input type='submit' class="decor-inputs" onclick=doit()></input>
+                </div>
+            </div>
+            <div class="output-div">
+                <p id="output"></p>
+            </div>
+        </form>
     </body>
 </html>
