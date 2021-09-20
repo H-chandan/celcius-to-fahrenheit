@@ -1,13 +1,13 @@
 .myframe {
-  margin: 3px 200px;
   background-color: #000000;
   border: solid 50px #e5cc5f;
   border-radius: 30px;
-  height: 500px;
   text-align: center;
   font-family: cursive;
   font-size: large;
   color: blanchedalmond;
+  height: 80vh;
+  min-width: 350px;
 }
 
 .input-div {

@@ -1,6 +1,5 @@
 function celsiusToFahrenheit() {
     const celsius = document.getElementById('celsius').value;
-    console.log(isNaN(celsius));
     if (isNaN(celsius) || celsius == '') {
         alert("PLEASE ENTER A NUMBER");
         return false;
