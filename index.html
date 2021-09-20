@@ -1,23 +1,24 @@
+<!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" charset="utf-8">
         <title>Celsius to fahrenheit</title>
         <link rel="stylesheet" href="styles/style.css">
         <script src="scripts/script.js" defer></script>
     </head>
     <body>
-        <form action="">
+        <div class="myframe">
             <div class="input-div">
                 <h1>Celsius to fahrenheit Conversion</h1>
                 <div>
                     <label for='celsius'>Enter Temperature (in celsius):</label>
-                    <input id='celsius' class="decor-inputs"></input>
-                    <input type='submit' class="decor-inputs" onclick=doit()></input>
+                    <input id='celsius' class="decor-inputs">
+                    <input type='submit' class="decor-inputs" onclick="celsiusToFahrenheit()">
                 </div>
             </div>
             <div class="output-div">
                 <p id="output"></p>
             </div>
-        </form>
+        </div>
     </body>
 </html>

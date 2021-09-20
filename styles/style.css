@@ -1,9 +1,9 @@
-form {
+.myframe {
   margin: 3px 200px;
   background-color: #000000;
   border: solid 50px #e5cc5f;
   border-radius: 30px;
-  height: 80%;
+  height: 500px;
   text-align: center;
   font-family: cursive;
   font-size: large;
@@ -13,7 +13,6 @@ form {
 .input-div {
   display: flex;
   flex-direction: column;
-  top:20%;
   margin-top: 10%;
 }
 
