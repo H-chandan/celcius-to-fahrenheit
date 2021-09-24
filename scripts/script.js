@@ -1,10 +1,20 @@
+const inputElement = document.getElementById('celsius');
+const outputElement = document.getElementById('output');
+
 function celsiusToFahrenheit() {
-    const celsius = document.getElementById('celsius').value;
-    if (isNaN(celsius) || celsius == '') {
-        alert("PLEASE ENTER A NUMBER");
+    celsius = inputElement.value
+    if (isNaN(celsius) || celsius == '' || celsius == '-0') {
+        alert("Please enter a proper number.");
         return false;
     }
     const fahrenheit = 9 * (celsius / 5) + 32;
-    document.getElementById('output').innerHTML = fahrenheit.toFixed(2);
+    outputElement.innerHTML = `${fahrenheit.toFixed(2)} &degF`;
     return true;
 };
+
+inputElement.addEventListener('keydown', function(event) {
+    const key = event.key;
+    if (key === 'Backspace') {
+        document.getElementById('output').innerHTML = '';
+    }
+})

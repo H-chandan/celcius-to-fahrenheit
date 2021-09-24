@@ -3,11 +3,11 @@
   border: solid 50px #e5cc5f;
   border-radius: 30px;
   text-align: center;
-  font-family: cursive;
-  font-size: large;
+  font-family: Verdana, sans-serif;
+  font-size: 20px;
   color: blanchedalmond;
-  height: 80vh;
-  min-width: 350px;
+  min-width: 90vw;
+  min-height: 80vh;
 }
 
 .input-div {
@@ -21,10 +21,9 @@
   border-radius: 5px;
   background-color: #5d5d5d;
   color: blanchedalmond;
-  font-family: cursive;
   text-align: center;
 }
 
 .output-div {
-  font-size: 50px;
+  font-size: 45px;
 }
