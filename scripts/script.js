@@ -12,9 +12,6 @@ function celsiusToFahrenheit() {
     return true;
 };
 
-inputElement.addEventListener('keydown', function(event) {
-    const key = event.key;
-    if (key === 'Backspace' || key === 'Delete') {
-        document.getElementById('output').innerHTML = '';
-    }
+inputElement.addEventListener('input', () => {
+    document.getElementById('output').innerHTML = '';
 })
