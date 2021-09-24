@@ -14,7 +14,7 @@ function celsiusToFahrenheit() {
 
 inputElement.addEventListener('keydown', function(event) {
     const key = event.key;
-    if (key === 'Backspace') {
+    if (key === 'Backspace' || key === 'Delete') {
         document.getElementById('output').innerHTML = '';
     }
 })
