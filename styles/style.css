@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 .myframe {
   background-color: #000000;
   border: solid 50px #e5cc5f;
