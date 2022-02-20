@@ -1,2 +1,2 @@
-# celsius to fahrenheit conversion
+# temperature conversion
 https://harichandanmohanty.github.io/temperature-conversion/
