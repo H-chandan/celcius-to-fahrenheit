@@ -10,15 +10,31 @@
     <body>
         <div class="myframe">
             <div class="input-div">
-                <h1>Celsius to fahrenheit Conversion</h1>
+                <h1>Temperature Conversion</h1>
                 <div>
-                    <label for='celsius'>Enter Temperature (&deg;C):</label>
-                    <input id='celsius' class="decor-inputs">
-                    <input type='submit' class="decor-inputs" onclick="celsiusToFahrenheit()">
+                    <label for='input'>Enter Temperature</label>
+        
+                    <div>
+                        <input id='input' class="decor-inputs">
+                        <select id="inp-units" name="inp-units">
+                            <option value="celsius">celsius</option>
+                            <option value="fahrenheit">fahrenheit</option>
+                            <option value="kelvin">kelvin</option>
+                        </select>
+                        <input type='submit' id="submit" class="decor-inputs">
+                    </div>
                 </div>
             </div>
             <div class="output-div">
-                <p id="output"></p>
+                <label for="output">Output</label>
+                <div>
+                    <select id="out-units" name="out-units">
+                        <option value="fahrenheit">fahrenheit</option>
+                        <option value="celsius">celsius</option>
+                        <option value="kelvin">kelvin</option>
+                    </select>
+                    <div name="output" id="output" cols="30" rows="10"></div>
+                </div>
             </div>
         </div>
     </body>
