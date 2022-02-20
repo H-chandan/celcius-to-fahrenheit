@@ -36,9 +36,11 @@ function celsiusToFahrenheit() {
         const fahrenheit = (inputValue - 273.15) * (9/5) + 32;
         outputElement.textContent = `${fahrenheit.toFixed(2)}`;
         return true;
-    } else {
+    } else if (inputUnit === outputUnit) {
+        alert('Please select different unit for input and output!');
         return false;
     }
+    return false;
 };
 
 inputElement.addEventListener('input', () => {
