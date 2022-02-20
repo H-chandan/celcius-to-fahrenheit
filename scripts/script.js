@@ -8,7 +8,7 @@ function celsiusToFahrenheit() {
     let inputUnit = inputUnitElement.value;
     let outputUnit = outputUnitElement.value;
     let inputValue = Number(inputElement.value);
-    if (isNaN(inputValue) || inputValue == '' || inputValue == '-0') {
+    if (isNaN(inputValue) || inputValue === '' || inputValue === '-0') {
         alert("Please enter a proper number.");
         return false;
     }
